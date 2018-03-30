@@ -113,8 +113,8 @@ tasks:
     ios_command:
       commands:
         - command: 'clear counters GigabitEthernet0/2'
-          prompt: 'Clear "show interface" counters on this interface [confirm]'
-          answer: c
+          prompt: 'Clear "show interface" counters on this interface \[confirm\]'
+          answer: 'y'
 """
 
 RETURN = """
